@@ -1,0 +1,23 @@
+#formulario{
+  background-color: purple;
+  width: 400px;
+  height: 400px;
+}
+
+.logo{
+  width: 90px;
+  height: 90px;
+}
+
+.navbar{
+  color: red;
+}
+
+#portfolioModal4{
+  padding-right: -5;
+}
+
+.fin{
+  width: 90px;
+  height: 90px;
+}
