@@ -1,17 +1,29 @@
 a:hover{
-  color:red;
+  color: #a89ed6;
   text-decoration: none;
 }
 
 .sobremi{
-  width: 300px;
-  height: 200px;
-  margin-left: 400px;
+  width: 30%;
+  height: 20%;
+  margin-left: 40%;
 }
 
+.logoletras{
+  width: 30%;
+  height: 20%;
+
+}
+
+.logo{
+  width: 50%;
+  height: 50%;
+  margin-left: 25%;
+
+}
 body{
 
-font-family: 'Roboto', sans-serif;
+font-family: 'Coustard', serif;
   background-color: #cec3fd;
 }
 
@@ -26,6 +38,58 @@ font-family: 'Roboto', sans-serif;
 }
 
 
+
 #portfolioModal4{
   padding-right: -5;
 }
+
+
+.enlases{
+  margin-left:;
+}
+
+.iconos{
+  margin-right: 50px;
+}
+
+.prueba1{
+  width: 100%
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.prueba1 figure{
+   position: relative;
+   height: 100%;
+   width: 100%;
+  cursor: pointer;
+ }
+
+ .prueba1 figure img{
+   height: 100%;
+   width: 100%;
+   transition: all 500ms ease-out;
+}
+
+.prueba1 figure .capa{
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(206, 195, 253, 0.8);
+  transition: all 500ms ease-out;
+  opacity: 0;
+  visibility: hidden;
+  text-align: center;
+ }
+
+ .prueba1 figure:hover > .capa{
+   opacity: 1;
+   visibility: visible;
+ }
+
+ .prueba1 figure:hover > .capa a{
+   margin-top: 100px;
+   margin-bottom: 60px;
+ }
